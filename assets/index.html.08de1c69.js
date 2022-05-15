@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as o,b as c}from"./app.47439971.js";const s={},_={id:"toimc-team",tabindex:"-1"},r=o("a",{class:"header-anchor",href:"#toimc-team","aria-hidden":"true"},"#",-1),n=c(" toimc-team"),i=[r,n];function d(h,m){return t(),a("h1",_,i)}var l=e(s,[["render",d],["__file","index.html.vue"]]);export{l as default};

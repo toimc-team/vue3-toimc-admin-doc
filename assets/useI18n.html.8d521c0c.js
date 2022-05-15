@@ -1,0 +1,1 @@
+const t={key:"v-3947d3be",path:"/tools/useI18n.html",title:"useI18n",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165263233e4,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"tools/useI18n.md"};export{t as data};

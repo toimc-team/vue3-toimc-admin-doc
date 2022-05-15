@@ -1,1 +1,0 @@
-const t={key:"v-74bc627b",path:"/about/",title:"toimc-team",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1651765066e3,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"about/index.md"};export{t as data};
