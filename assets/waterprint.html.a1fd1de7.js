@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as r,d as o}from"./app.fbc2eb80.js";const s={},c={id:"\u6C34\u5370",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#\u6C34\u5370","aria-hidden":"true"},"#",-1),n=o(" \u6C34\u5370"),d=[_,n];function i(h,f){return t(),a("h1",c,d)}var m=e(s,[["render",i],["__file","waterprint.html.vue"]]);export{m as default};

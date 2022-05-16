@@ -1,0 +1,1 @@
+const t={key:"v-66bfa1da",path:"/components/dynamic/trends.html",title:"\u8D8B\u52BF\u663E\u793A\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165271437e4,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"components/dynamic/trends.md"};export{t as data};

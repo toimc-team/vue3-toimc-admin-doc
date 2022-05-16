@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a as r,d as a}from"./app.08904aa5.js";const s={},c={id:"vditor",tabindex:"-1"},d=r("a",{class:"header-anchor",href:"#vditor","aria-hidden":"true"},"#",-1),_=a(" Vditor"),i=[d,_];function n(h,f){return t(),o("h1",c,i)}var m=e(s,[["render",n],["__file","vditor.html.vue"]]);export{m as default};
