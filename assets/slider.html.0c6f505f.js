@@ -1,1 +1,0 @@
-const t={key:"v-190b98f0",path:"/components/dynamic/slider.html",title:"\u6ED1\u5757",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165271437e4,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"components/dynamic/slider.md"};export{t as data};

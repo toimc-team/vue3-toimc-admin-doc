@@ -1,1 +1,0 @@
-const t={key:"v-3ee7d3fb",path:"/components/editor/vditor.html",title:"Vditor",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165271437e4,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"components/editor/vditor.md"};export{t as data};

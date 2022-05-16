@@ -1,0 +1,1 @@
+const t={key:"v-c0edf6d0",path:"/components/func/waterprint.html",title:"\u6C34\u5370",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652716133e3,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"components/func/waterprint.md"};export{t as data};
