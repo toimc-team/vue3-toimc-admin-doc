@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as o,a as s,b as c}from"./app.78859786.js";const t={},_={id:"uselocale",tabindex:"-1"},r=s("a",{class:"header-anchor",href:"#uselocale","aria-hidden":"true"},"#",-1),n=c(" useLocale"),l=[r,n];function d(h,i){return a(),o("h1",_,l)}var f=e(t,[["render",d],["__file","useLocale.html.vue"]]);export{f as default};

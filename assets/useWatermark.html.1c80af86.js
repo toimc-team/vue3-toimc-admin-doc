@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,a as r,b as s}from"./app.78859786.js";const o={},c={id:"usewatermark",tabindex:"-1"},_=r("a",{class:"header-anchor",href:"#usewatermark","aria-hidden":"true"},"#",-1),n=s(" useWatermark"),d=[_,n];function h(i,m){return a(),t("h1",c,d)}var f=e(o,[["render",h],["__file","useWatermark.html.vue"]]);export{f as default};

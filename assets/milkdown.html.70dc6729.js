@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a,b as n}from"./app.78859786.js";const s={},c={id:"milkdown",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#milkdown","aria-hidden":"true"},"#",-1),r=n(" MilkDown"),d=[_,r];function i(l,h){return o(),t("h1",c,d)}var f=e(s,[["render",i],["__file","milkdown.html.vue"]]);export{f as default};
