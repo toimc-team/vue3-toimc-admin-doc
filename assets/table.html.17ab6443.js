@@ -1,1 +1,0 @@
-const t={key:"v-df88a5ea",path:"/components/table.html",title:"\u8868\u683C",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652716133e3,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"components/table.md"};export{t as data};
