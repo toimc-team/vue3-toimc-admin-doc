@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a,d as o}from"./app.ffb1adca.js";const r={},c={id:"\u6ED1\u5757",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#\u6ED1\u5757","aria-hidden":"true"},"#",-1),d=o(" \u6ED1\u5757"),n=[_,d];function i(h,l){return t(),s("h1",c,n)}var m=e(r,[["render",i],["__file","slider.html.vue"]]);export{m as default};

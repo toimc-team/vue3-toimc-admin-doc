@@ -1,1 +1,0 @@
-const t={key:"v-3c3a0931",path:"/guide/guide/router.html",title:"\u8DEF\u7531\u548C\u83DC\u5355",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652792563e3,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"guide/guide/router.md"};export{t as data};
