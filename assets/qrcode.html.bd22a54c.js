@@ -1,0 +1,1 @@
+const t={key:"v-57982c94",path:"/components/notice/qrcode.html",title:"\u4E8C\u7EF4\u7801",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653724995e3,contributors:[{name:"toimc",email:"51934415+toimc@users.noreply.github.com",commits:1}]},filePathRelative:"components/notice/qrcode.md"};export{t as data};
