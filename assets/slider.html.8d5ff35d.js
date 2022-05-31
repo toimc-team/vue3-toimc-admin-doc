@@ -1,0 +1,1 @@
+const e={key:"v-190b98f0",path:"/components/dynamic/slider.html",title:"\u6ED1\u5757",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u5C5E\u6027",slug:"\u5C5E\u6027",children:[]},{level:2,title:"\u4E8B\u4EF6",slug:"\u4E8B\u4EF6",children:[]}]};export{e as data};

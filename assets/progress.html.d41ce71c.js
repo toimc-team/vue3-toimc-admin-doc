@@ -1,1 +1,0 @@
-const t={key:"v-4c95ddbc",path:"/components/dynamic/progress.html",title:"\u52A8\u6001\u8FDB\u5EA6\u6761",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1653724995e3,contributors:[{name:"toimc",email:"51934415+toimc@users.noreply.github.com",commits:1}]},filePathRelative:"components/dynamic/progress.md"};export{t as data};
