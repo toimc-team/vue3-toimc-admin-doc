@@ -1,0 +1,1 @@
+const e={key:"v-1020f180",path:"/components/",title:"Component",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165407692e4,contributors:[{name:"Jerry",email:"cjm17342948@163.com",commits:1}]},filePathRelative:"components/index.md"};export{e as data};
