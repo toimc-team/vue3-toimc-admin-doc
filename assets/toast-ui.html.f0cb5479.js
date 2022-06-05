@@ -1,1 +1,0 @@
-const t={key:"v-e070c986",path:"/components/editor/toast-ui.html",title:"ToastUI",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165407692e4,contributors:[{name:"Jerry",email:"cjm17342948@163.com",commits:1}]},filePathRelative:"components/editor/toast-ui.md"};export{t as data};

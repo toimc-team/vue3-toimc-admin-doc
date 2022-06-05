@@ -1,1 +1,0 @@
-const t={key:"v-1c7cb9fe",path:"/components/func/crop.html",title:"\u56FE\u7247\u88C1\u526A",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165407692e4,contributors:[{name:"Jerry",email:"cjm17342948@163.com",commits:1}]},filePathRelative:"components/func/crop.md"};export{t as data};

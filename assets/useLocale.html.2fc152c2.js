@@ -1,1 +1,0 @@
-const e={key:"v-66059436",path:"/tools/useLocale.html",title:"useLocale",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165407692e4,contributors:[{name:"Jerry",email:"cjm17342948@163.com",commits:1}]},filePathRelative:"tools/useLocale.md"};export{e as data};
