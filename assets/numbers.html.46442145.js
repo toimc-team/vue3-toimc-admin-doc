@@ -1,1 +1,0 @@
-const t={key:"v-a6fa3042",path:"/components/dynamic/numbers.html",title:"\u52A8\u6001\u6570\u5B57",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1654477106e3,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"components/dynamic/numbers.md"};export{t as data};
