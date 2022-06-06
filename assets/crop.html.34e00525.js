@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a,d as c}from"./app.1d53272a.js";const r={},s={id:"\u56FE\u7247\u88C1\u526A",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#\u56FE\u7247\u88C1\u526A","aria-hidden":"true"},"#",-1),n=c(" \u56FE\u7247\u88C1\u526A"),d=[_,n];function h(i,f){return t(),o("h1",s,d)}var m=e(r,[["render",h],["__file","crop.html.vue"]]);export{m as default};

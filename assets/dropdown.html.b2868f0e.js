@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a,d as r}from"./app.0b63130f.js";const s={},c={id:"\u4E0B\u62C9\u83DC\u5355",tabindex:"-1"},_=a("a",{class:"header-anchor",href:"#\u4E0B\u62C9\u83DC\u5355","aria-hidden":"true"},"#",-1),d=r(" \u4E0B\u62C9\u83DC\u5355"),n=[_,d];function h(i,f){return o(),t("h1",c,n)}var m=e(s,[["render",h],["__file","dropdown.html.vue"]]);export{m as default};
