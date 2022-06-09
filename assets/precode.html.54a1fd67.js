@@ -1,1 +1,0 @@
-const e={key:"v-67b1de36",path:"/tools/precode.html",title:"v-precode",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u57FA\u7840\u7528\u6CD5",slug:"\u57FA\u7840\u7528\u6CD5",children:[]}],git:{updatedTime:1654784084e3,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"tools/precode.md"};export{e as data};

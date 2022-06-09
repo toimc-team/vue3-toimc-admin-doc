@@ -1,1 +1,0 @@
-const t={key:"v-2f0c6322",path:"/tools/throttle.html",title:"v-throttle",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u57FA\u7840\u7528\u6CD5",slug:"\u57FA\u7840\u7528\u6CD5",children:[]}],git:{updatedTime:1654784084e3,contributors:[{name:"Forest",email:"767425412lin@gmail.com",commits:1}]},filePathRelative:"tools/throttle.md"};export{t as data};
