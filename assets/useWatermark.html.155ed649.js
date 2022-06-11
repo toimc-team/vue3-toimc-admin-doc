@@ -1,1 +1,0 @@
-const t={key:"v-5a01c20f",path:"/tools/useWatermark.html",title:"useWatermark",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1654826586e3,contributors:[{name:"Forest",email:"56526369+Forest-211@users.noreply.github.com",commits:1}]},filePathRelative:"tools/useWatermark.md"};export{t as data};

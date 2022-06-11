@@ -1,1 +1,0 @@
-const e={key:"v-3947d3be",path:"/tools/useI18n.html",title:"useI18n",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1654826586e3,contributors:[{name:"Forest",email:"56526369+Forest-211@users.noreply.github.com",commits:1}]},filePathRelative:"tools/useI18n.md"};export{e as data};

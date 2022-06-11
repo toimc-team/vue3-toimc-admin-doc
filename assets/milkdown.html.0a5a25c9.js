@@ -1,1 +1,0 @@
-const t={key:"v-d4a7f44c",path:"/components/editor/milkdown.html",title:"MilkDown",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1654826586e3,contributors:[{name:"Forest",email:"56526369+Forest-211@users.noreply.github.com",commits:1}]},filePathRelative:"components/editor/milkdown.md"};export{t as data};
