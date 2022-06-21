@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,a as c,d as o}from"./app.3c0316d5.js";const s={},n={id:"\u817E\u8BAF\u5730\u56FE",tabindex:"-1"},_=c("a",{class:"header-anchor",href:"#\u817E\u8BAF\u5730\u56FE","aria-hidden":"true"},"#",-1),r=o(" \u817E\u8BAF\u5730\u56FE"),d=[_,r];function h(i,f){return t(),a("h1",n,d)}var m=e(s,[["render",h],["__file","tencent.html.vue"]]);export{m as default};
