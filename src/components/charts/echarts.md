@@ -2,19 +2,15 @@
 
 基于`vue-echarts`的封装，链接：https://vue-chartjs.org/guide/
 
-自定义组件名称：`v-charts`，原生echarts，可以使用`d-charts`。
-
-
+自定义组件名称：`v-charts`，原生 echarts，可以使用`d-charts`。
 
 ## 效果
 
 ![vchart](./assets/echarts.png)
 
-
-
 ## 用法
 
-使用基于vue-echarts封装的`v-charts`：
+使用基于 vue-echarts 封装的`v-charts`：
 
 ```vue
 <template>
@@ -179,16 +175,14 @@ export default defineComponent({
 
 ## 属性
 
-| 属性        | 描述                                                        | 类型                                            | 可选值 | 默认值                                                                                      |
-| ----------- | ----------------------------------------------------------- | ----------------------------------------------- | ------ | ------------------------------------------------------------------------------------------- |
-| type        | 图表类型                                                    | [`ChartsType`](#chartstype)                     | -      | 'PieChart'                                                                                  |
-| components  | 图表组件选项(提示浮层等)                                    | [`ChartsComponentsType`](#chartscomponentstype) | -      | ['TitleComponent', 'TooltipComponent', 'LegendComponent', 'AriaComponent', 'GridComponent'] |
-| option      | ECharts 实例选项                                            | `Object`                                        | -      | {}                                                                                          |
-| prefixClass | 类名前缀                                                    | `String丨Object`                                | -      | 'v-charts'                                                                                  |
-| autoresize  | 指定 ECharts 实例在组件根元素尺寸变化时是否需要自动进行重绘 | `Boolean`                                       | -      | true                                                                                        |
-| loading     | 指定图表的加载状态                                          | `Boolean`                                       | -      | true                                                                                        |
-
-
+| 属性        | 描述                                                        | 类型                                              | 可选值 | 默认值                                                                                      |
+| ----------- | ----------------------------------------------------------- | ------------------------------------------------- | ------ | ------------------------------------------------------------------------------------------- |
+| type        | 图表类型                                                    | [`ChartsType`](#chartstype)                       | -      | 'PieChart'                                                                                  |
+| components  | 图表组件选项(提示浮层等)                                    | [`ChartsComponentsType[]`](#chartscomponentstype) | -      | ['TitleComponent', 'TooltipComponent', 'LegendComponent', 'AriaComponent', 'GridComponent'] |
+| option      | ECharts 实例选项                                            | `object`                                          | -      | {}                                                                                          |
+| prefixClass | 类名前缀                                                    | `string丨object`                                  | -      | 'v-charts'                                                                                  |
+| autoresize  | 指定 ECharts 实例在组件根元素尺寸变化时是否需要自动进行重绘 | `boolean`                                         | -      | true                                                                                        |
+| loading     | 指定图表的加载状态                                          | `boolean`                                         | -      | true                                                                                        |
 
 ## 类型说明
 
@@ -196,8 +190,8 @@ export default defineComponent({
 
 `ChartsType`是 echarts 图表类型，为以下字符串枚举的联合类型，可选值如下：
 
-| 可选值               | 描述                                                                      |
-| -------------------- | ------------------------------------------------------------------------- |
+| 可选值             | 描述                                                                      |
+| ------------------ | ------------------------------------------------------------------------- |
 | BarChart           | 柱状图                                                                    |
 | BoxplotChart       | 盒须图                                                                    |
 | CandlestickChart   | K 线图                                                                    |
@@ -225,8 +219,8 @@ export default defineComponent({
 
 `ChartsComponentsType`是 echarts 图表的组件类型，为以下字符串枚举的联合类型，可选值如下：
 
-| 可选值                         | 描述                                                                                  |
-| ------------------------------ | ------------------------------------------------------------------------------------- |
+| 可选值                       | 描述                                                                                  |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
 | AriaComponent                | [无障碍设置](https://echarts.apache.org/zh/option.html#aria)                          |
 | AxisPointerComponent         | 坐标轴组件                                                                            |
 | BrushComponent               | [区域选择组件](https://echarts.apache.org/zh/option.html#brush)                       |
@@ -258,9 +252,7 @@ export default defineComponent({
 | VisualMapContinuousComponent | [连续型视觉映射组件](https://echarts.apache.org/zh/option.html#visualMap-continuous)  |
 | VisualMapPiecewiseComponent  | [分段型视觉映射组件](https://echarts.apache.org/zh/option.html#visualMap-piecewise)() |
 
-
-
-## Echarts封装示例
+## Echarts 封装示例
 
 `d-charts`组件做了简单的封装：
 
@@ -270,54 +262,53 @@ export default defineComponent({
 </template>
 
 <script lang="ts">
-  import { ECharts, init } from 'echarts'
-  import { debounce } from 'lodash-es'
+import { ECharts, init } from 'echarts'
+import { debounce } from 'lodash-es'
 
-  export default defineComponent({
-    props: {
-      option: {
-        type: Object,
-        default: () => {}
-      },
-      responsive: {
-        type: Boolean,
-        default: true
-      }
+export default defineComponent({
+  props: {
+    option: {
+      type: Object,
+      default: () => {}
     },
-    setup(props: any) {
-      const chartRef = ref<ECharts>()
-      let echartsInstance: ECharts | undefined
-
-      function resize() {
-        echartsInstance?.resize()
-      }
-
-      function destroy() {
-        if (props.responsive) {
-          window.removeEventListener('resize', resize)
-        }
-      }
-
-      onUnmounted(destroy)
-
-      onMounted(() => {
-        if (props.responsive) {
-          window.addEventListener('resize', debounce(resize, 200))
-        }
-        echartsInstance = init(chartRef.value as unknown as HTMLElement)
-        echartsInstance.setOption(props.option)
-      })
-
-      return { chartRef }
+    responsive: {
+      type: Boolean,
+      default: true
     }
-  })
+  },
+  setup(props: any) {
+    const chartRef = ref<ECharts>()
+    let echartsInstance: ECharts | undefined
+
+    function resize() {
+      echartsInstance?.resize()
+    }
+
+    function destroy() {
+      if (props.responsive) {
+        window.removeEventListener('resize', resize)
+      }
+    }
+
+    onUnmounted(destroy)
+
+    onMounted(() => {
+      if (props.responsive) {
+        window.addEventListener('resize', debounce(resize, 200))
+      }
+      echartsInstance = init(chartRef.value as unknown as HTMLElement)
+      echartsInstance.setOption(props.option)
+    })
+
+    return { chartRef }
+  }
+})
 </script>
 
 <style lang="scss" scoped>
-  .chart {
-    width: 100%;
-    height: 400px;
-  }
+.chart {
+  width: 100%;
+  height: 400px;
+}
 </style>
 ```
-
