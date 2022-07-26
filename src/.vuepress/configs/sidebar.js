@@ -93,6 +93,10 @@ const sidebar = {
       ]
     },
     {
+      text: 'excel',
+      children: ['/components/excel/excel']
+    },
+    {
       text: '小组件',
       children: [
         '/components/sole/calendar-card',
