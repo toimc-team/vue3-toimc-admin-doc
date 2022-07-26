@@ -1,0 +1,1 @@
+const t={key:"v-2c612258",path:"/components/charts/baidu.html",title:"\u767E\u5EA6\u5730\u56FE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1658850285e3,contributors:[{name:"toimc",email:"51934415+toimc@users.noreply.github.com",commits:1}]},filePathRelative:"components/charts/baidu.md"};export{t as data};
