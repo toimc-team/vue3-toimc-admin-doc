@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a,a as o,d as s}from"./app.ca3db993.js";const c={},_={id:"\u767E\u5EA6\u5730\u56FE",tabindex:"-1"},r=o("a",{class:"header-anchor",href:"#\u767E\u5EA6\u5730\u56FE","aria-hidden":"true"},"#",-1),d=s(" \u767E\u5EA6\u5730\u56FE"),n=[r,d];function i(h,f){return t(),a("h1",_,n)}var u=e(c,[["render",i],["__file","baidu.html.vue"]]);export{u as default};

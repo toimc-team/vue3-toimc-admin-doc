@@ -1,0 +1,1 @@
+const t={key:"v-21fe2338",path:"/components/charts/amap.html",title:"\u9AD8\u5FB7\u5730\u56FE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1658850236e3,contributors:[{name:"toimc",email:"51934415+toimc@users.noreply.github.com",commits:1}]},filePathRelative:"components/charts/amap.md"};export{t as data};

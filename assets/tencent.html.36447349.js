@@ -1,1 +1,0 @@
-const t={key:"v-73f6c0ee",path:"/components/charts/tencent.html",title:"\u817E\u8BAF\u5730\u56FE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1658850049e3,contributors:[{name:"toimc",email:"brian@toimc.com",commits:1}]},filePathRelative:"components/charts/tencent.md"};export{t as data};
